@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class TextQuestion extends StatelessWidget {
 
-  String text;
+  final String text;
 
   TextQuestion({this.text});
 

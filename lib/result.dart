@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class Result extends StatelessWidget {
-  List<String> respostas;
+  final List<String> respostas;
 
-  void Function() onReinicia;
+  final void Function() onReinicia;
 
   Result({this.respostas, this.onReinicia});
 
